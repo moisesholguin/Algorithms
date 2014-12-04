@@ -2,6 +2,12 @@
 import java.io.*;
 import java.util.*;
 
+////////////////////////////////////////////////////////////////
+//                                                            //
+//                       Primes class                         //
+//                                                            //
+////////////////////////////////////////////////////////////////
+
 public class Primes {
     public static void main(String[] args) {
         // isPrime tests
@@ -57,7 +63,7 @@ public class Primes {
     }
 
     /*
-     *   DESCRIPTION: Finds all primes up to n
+     *   DESCRIPTION: Finds all primes up to n using the sieve of eratosthenes algorithm
      * OPTIMIZATIONS: Start sieve at 2, only check up to sqrt(x), increments starting at x^2 
      *
      *  INPUT: integer n
